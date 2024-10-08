@@ -78,6 +78,64 @@
             <mxPoint x="-134" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="A5Q3U65SZ9ayOwc_HAjR-16" value="Check-in&amp;nbsp;&lt;div&gt;Service&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="170" y="410" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="A5Q3U65SZ9ayOwc_HAjR-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="A5Q3U65SZ9ayOwc_HAjR-16">
+          <mxGeometry x="45" y="70" width="10" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="A5Q3U65SZ9ayOwc_HAjR-18" value="Passenger Check-in T- 0" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="A5Q3U65SZ9ayOwc_HAjR-16" target="A5Q3U65SZ9ayOwc_HAjR-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-160" y="70" as="sourcePoint" />
+            <mxPoint x="-32" y="69" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A5Q3U65SZ9ayOwc_HAjR-29" value="Baggage Handling Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="570" y="410" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="A5Q3U65SZ9ayOwc_HAjR-30" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="A5Q3U65SZ9ayOwc_HAjR-29">
+          <mxGeometry x="45" y="80" width="10" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="A5Q3U65SZ9ayOwc_HAjR-31" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="609" as="sourcePoint" />
+            <mxPoint x="619.5" y="609" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A5Q3U65SZ9ayOwc_HAjR-32" value="Generate Baggage Tag For Passenger" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A5Q3U65SZ9ayOwc_HAjR-31">
+          <mxGeometry x="0.1003" y="1" relative="1" as="geometry">
+            <mxPoint x="-134" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A5Q3U65SZ9ayOwc_HAjR-33" value="Document Verification" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="375" y="410" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="A5Q3U65SZ9ayOwc_HAjR-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="A5Q3U65SZ9ayOwc_HAjR-33">
+          <mxGeometry x="45" y="80" width="10" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="A5Q3U65SZ9ayOwc_HAjR-35" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="A5Q3U65SZ9ayOwc_HAjR-16" target="A5Q3U65SZ9ayOwc_HAjR-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="630" as="sourcePoint" />
+            <mxPoint x="450" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A5Q3U65SZ9ayOwc_HAjR-36" value="Checks passenger info&amp;nbsp;&lt;div&gt;against security and immigration DBs&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A5Q3U65SZ9ayOwc_HAjR-35">
+          <mxGeometry x="0.1069" y="-1" relative="1" as="geometry">
+            <mxPoint y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A5Q3U65SZ9ayOwc_HAjR-37" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="410" as="sourcePoint" />
+            <mxPoint x="450" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A5Q3U65SZ9ayOwc_HAjR-38" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="410" as="sourcePoint" />
+            <mxPoint x="450" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
